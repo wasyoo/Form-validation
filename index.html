@@ -1,0 +1,94 @@
+<html>
+
+<head>
+
+    <title>Form Validation</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+
+            <form class="form-horizontal" id="form">
+                <fieldset>
+
+
+
+                    <!-- Text input name-->
+                    <div class="form-group">
+                        <label class="col-md-3 col-xs-6 control-label" for="name">Name:</label>
+                        <div class="col-md-3 col-xs-6">
+                            <input name="name" id="name" type="text" class="form-control input-md">
+                            <small class="err"></small>
+                        </div>
+                    </div>
+
+                    <!-- Text input adress-->
+                    <div class="form-group">
+                        <label class="col-md-3 col-xs-6 control-label" for="address"> Adress :</label>
+                        <div class="col-md-3 col-xs-6">
+                            <input name="address" id="address" type="text" class="form-control input-md">
+                            <small class="err"></small>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Text input mail-->
+                    <div class="form-group">
+                        <label class="col-md-3 col-xs-6 control-label" for="email">E-mail Address</label>
+                        <div class="col-md-3 col-xs-6">
+                            <input name="email" id="email" type="text" class="form-control input-md">
+                            <small class="err"></small>
+                        </div>
+                    </div>
+                    <!-- Text input password-->
+                    <div class="form-group">
+                        <label class="col-md-3 col-xs-6 control-label" for="password">Password:</label>
+                        <div class="col-md-3 col-xs-6">
+                            <input name="password" id="password" type="text" class="form-control input-md">
+                            <small class="err"></small>
+                        </div>
+                    </div>
+
+                    <!-- Textarea comment -->
+                    <div class="form-group">
+                        <label class="col-md-3  col-xs-6 control-label" for="comments">Comments:</label>
+                        <div class="col-md-3 col-xs-6 ">
+                            <textarea class="form-control" id="comments" name="message"></textarea>
+                            <small class="err"></small>
+                        </div>
+                    </div>
+
+                    <!-- Button (Double) -->
+                    <div class="form-group">
+                        <label class="col-md-3 col-xs-6 control-label" for="submit"></label>
+                        <div class="col-md-3 col-xs-6  button">
+                            <button id="submit" name="submit" type="submit" class="btn btn-primary">Submit</button>
+                            <button id="reset" name="reset" type="reset" class="btn btn-danger">Reset</button>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </form>
+
+        </div>
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+
+
+
+
+
+
+</html>
